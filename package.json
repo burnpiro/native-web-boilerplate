@@ -1,0 +1,29 @@
+{
+  "name": "native-web-boilerplate",
+  "version": "0.1.0",
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^22.4.3",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.2"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "^16.3.2",
+    "react-native": "0.55.3",
+    "react-native-web": "^0.6.1",
+    "webpack": "^4.6.0"
+  },
+  "author": "Kemal Erdem",
+  "license": "MIT"
+
+}
