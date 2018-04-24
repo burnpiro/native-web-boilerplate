@@ -43,23 +43,23 @@ module.exports = {
       },
       // "url" loader embeds assets smaller than specified size as data URLs to avoid requests.
       // Otherwise, it acts like the "file" loader.
-      // {
-      //   exclude: [
-      //     /\.html$/,
-      //     /\.(js|jsx)$/,
-      //     /\.css$/,
-      //     /\.json$/,
-      //     /\.svg$/
-      //   ],
-      //   use: [
-      //     {
-      //       loader: 'url-loader',
-      //       options: {
-      //         limit: 10000
-      //       }
-      //     }
-      //   ]
-      // },
+      {
+        exclude: [
+          /\.html$/,
+          /\.(js|jsx)$/,
+          /\.css$/,
+          /\.json$/,
+          /\.svg$/
+        ],
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 10000
+            }
+          }
+        ]
+      },
       // Process JS with Babel.
       {
         test: /\.(js|jsx)$/,
@@ -101,22 +101,11 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              importLoaders: 1,
-              minimize: true
+              importLoaders: 1
             }
           },
           {
-            loader: 'postcss-loader',
-            options: {
-              plugins: (loader) => [
-                require('autoprefixer')({
-                  browsers: [
-                    '>1%',
-                    'ie > 10', // React doesn't support IE8 anyway
-                  ]
-                })
-              ]
-            }
+            loader: 'postcss-loader'
           }
         ]
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.

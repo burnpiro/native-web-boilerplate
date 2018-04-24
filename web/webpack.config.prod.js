@@ -1,12 +1,11 @@
 'use strict';
 
-const autoprefixer = require('autoprefixer');
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const paths = require('../config/paths');
 const getClientEnvironment = require('../config/env');
 
@@ -32,7 +31,7 @@ if (env.stringified['process.env'].NODE_ENV !== '"production"') {
 }
 
 // Note: defined here because it will be used more than once.
-const cssFilename = 'static/css/[name].[contenthash:8].css';
+const cssFilename = 'static/css/[name].[chunkhash:8].css';
 
 // ExtractTextPlugin expects the build output to be flat.
 // (See https://github.com/webpack-contrib/extract-text-webpack-plugin/issues/27)
@@ -165,19 +164,10 @@ module.exports = {
               }
             },
             {
-              loader: 'postcss-loader',
-              options: {
-                plugins: (loader) => [
-                  require('autoprefixer')({
-                    browsers: [
-                      '>1%',
-                      'ie > 10', // React doesn't support IE8 anyway
-                    ]
-                  })
-                ]
-              }
+              loader: 'postcss-loader'
             }
-          ]
+          ],
+          ...extractTextPluginOptions
         })
         // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
       },
@@ -224,6 +214,7 @@ module.exports = {
     new webpack.DefinePlugin(env.stringified),
     // Minify the code.
     new UglifyJsPlugin(),
+    new ExtractTextPlugin(cssFilename),
     // Note: this won't work without ExtractTextPlugin.extract(..) in `loaders`.
     // Generate a manifest file which contains a mapping of all asset filenames
     // to their corresponding output file so that tools can pick it up without
