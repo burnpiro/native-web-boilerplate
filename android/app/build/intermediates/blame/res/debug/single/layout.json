@@ -45,7 +45,7 @@
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
-        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/res/layout/dev_loading_view.xml"
+        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -85,15 +85,15 @@
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/redbox_item_title.xml",
-        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/res/layout/redbox_item_title.xml"
+        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/layout/redbox_item_title.xml"
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
-        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/res/layout/redbox_item_frame.xml"
+        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/layout/redbox_item_frame.xml"
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/res/layout/fps_view.xml"
+        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
@@ -113,7 +113,7 @@
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
-        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/res/layout/redbox_view.xml"
+        "source": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/res/layout/redbox_view.xml"
     },
     {
         "merged": "/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",

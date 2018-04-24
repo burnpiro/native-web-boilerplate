@@ -2,6 +2,7 @@
 
 const autoprefixer = require('autoprefixer');
 const webpack = require('webpack');
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
@@ -77,6 +78,7 @@ module.exports = {
     alias: {
       // Support React Native Web
       // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
+      'react-native/Libraries/Renderer/shims/ReactNativePropRegistry': 'react-native-web/dist/modules/ReactNativePropRegistry',
       'react-native': 'react-native-web'
     }
   },
@@ -108,18 +110,35 @@ module.exports = {
           /\.json$/,
           /\.svg$/
         ],
-        loader: 'url-loader',
-        query: {
-          limit: 10000,
-          name: 'static/media/[name].[hash:8].[ext]'
-        }
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 10000
+            }
+          }
+        ]
       },
       // Process JS with Babel.
       {
         test: /\.(js|jsx)$/,
-        include: paths.appSrc,
+        include: [
+          paths.appSrc,
+          path.resolve(paths.appNodeModules, 'native-base-shoutem-theme'),
+          path.resolve(paths.appNodeModules, 'react-navigation'),
+          path.resolve(paths.appNodeModules, 'react-native-easy-grid'),
+          path.resolve(paths.appNodeModules, 'react-native-drawer'),
+          path.resolve(paths.appNodeModules, 'react-native-safe-area-view'),
+          path.resolve(paths.appNodeModules, 'react-native-vector-icons'),
+          path.resolve(
+            paths.appNodeModules,
+            'react-native-keyboard-aware-scroll-view'
+          ),
+          path.resolve(paths.appNodeModules, 'react-native-web'),
+          path.resolve(paths.appNodeModules, 'react-native-tab-view'),
+          path.resolve(paths.appNodeModules, 'static-container')
+        ],
         loader: 'babel-loader',
-
       },
       // The notation here is somewhat confusing.
       // "postcss" loader applies autoprefixer to our CSS.
@@ -169,13 +188,13 @@ module.exports = {
       //   loader: 'json'
       // },
       // "file" loader for svg
-      // {
-      //   test: /\.svg$/,
-      //   loader: 'file-loader',
-      //   query: {
-      //     name: 'static/media/[name].[hash:8].[ext]'
-      //   }
-      // }
+      {
+        test: /\.svg$/,
+        loader: 'file-loader',
+        options: {
+          name: 'static/media/[name].[hash:8].[ext]'
+        }
+      }
       // ** STOP ** Are you adding a new loader?
       // Remember to add the new extension(s) to the "url" loader exclusion list.
     ]

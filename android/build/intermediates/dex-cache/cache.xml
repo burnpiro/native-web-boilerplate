@@ -3,57 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_ca3a2f75c77008fc81369014ab455827a5ba6ddb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9236445249b688377917bbf182bb651ba5a9c5f1">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.54.4_22256c5e26746e0f838850eed2f8fc601f892299.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_8f9146fc0bd183e9d8f3e912fdb2990575f71186.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_52ff2a1e20790033217c4ca4964b9a7b87f2368f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_61c4d2cc959e6e8ad3a24b0f9107fac4140233a4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
         <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_963853d0f410edae6edf7f7324b1c6c3a31789c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_02d56878e87147bdc99f6e5a33590c4e9a2545e7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,48 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_af93d858aafd7626494cc13a3c5f80a90ee9882b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_8c904afaebf5546ffacf1c47e01c4be2094cfb40.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_6b61827703df592c01388008dd20d1e62a250b66.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_2ddcf8d29ad3004f57317b68e9cb95d9f6160a8c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8ef1ed07b1e2393b15f55a5435d31c6dbd1817e1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -126,24 +54,6 @@
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
         <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_3544df9577794cb80df8eafb8bacd6f9e1d176ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_b6de7827a2303d6a52e9f30d7160fc0c05b6fb07.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/piro/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_35b0551e708fed4acff666801c5df8bb42a240b0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="01f201f8a16c7438c9ee4c56139d01663f2cb0e4">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.3_463297a5e29c94b52ea6f6c9707745ae883badc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -189,6 +108,87 @@
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
         <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_2007e5f5ac1df0c6eb038f741c23c031b39a55c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_ca3a2f75c77008fc81369014ab455827a5ba6ddb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_8f9146fc0bd183e9d8f3e912fdb2990575f71186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_52ff2a1e20790033217c4ca4964b9a7b87f2368f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_61c4d2cc959e6e8ad3a24b0f9107fac4140233a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_af93d858aafd7626494cc13a3c5f80a90ee9882b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_8c904afaebf5546ffacf1c47e01c4be2094cfb40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_6b61827703df592c01388008dd20d1e62a250b66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_8ef1ed07b1e2393b15f55a5435d31c6dbd1817e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_35b0551e708fed4acff666801c5df8bb42a240b0.jar" />
     </item>
 
 </items>
