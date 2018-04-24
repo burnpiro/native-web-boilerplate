@@ -13,6 +13,21 @@ yarn run android
 yarn run ios
 ```
 
+## Production build
+
+Install using `yarn` or `npm`:
+
+```
+yarn run web-build-release
+yarn run android-build-release
+yarn run ios-build-release
+```
+
+or just 
+```
+yarn run build-release
+```
+
 ## Contributing
 
 The main purpose of this repository is to help evolve React web and native
