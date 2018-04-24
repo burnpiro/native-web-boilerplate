@@ -51,6 +51,7 @@ module.exports = {
   // We generate sourcemaps in production. This is slow but gives good results.
   // You can exclude the *.map files from the build during deployment.
   devtool: 'source-map',
+  mode: 'production',
   target: 'web',
   // In production, we only want to load the polyfills and the app code.
   entry: [
@@ -90,13 +91,13 @@ module.exports = {
 
       // First, run the linter.
       // It's important to do this before Babel processes the JS.
-      // preLoaders: [
-      //   {
-      //     test: /\.(js|jsx)$/,
-      //     loader: 'eslint',
-      //     include: paths.appSrc
-      //   }
-      // ],
+
+      {
+        test: /\.(js|jsx)$/,
+        loader: 'eslint-loader',
+        enforce: 'pre',
+        include: paths.appSrc
+      },
       // "url" loader embeds assets smaller than specified size as data URLs to avoid requests.
       // Otherwise, it acts like the "file" loader.
       {
