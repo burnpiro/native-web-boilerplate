@@ -39,11 +39,15 @@
   },
   "scripts": {
     "start": "react-native start",
+    "version": "echo $npm_package_version",
     "android": "react-native run-android",
+    "android-build-release": "mkdir -p build && mkdir -p build/android && npm install && cd android && ./gradlew assembleRelease && rsync ./app/build/outputs/apk/app-release-unsigned.apk ../build/android/$npm_package_name-release-$npm_package_version.apk && cd ..",
     "ios": "react-native run-ios",
+    "ios-build-release": "mkdir -p build && mkdir -p build/ios && npm install && xcodebuild archive -project ios/$npm_package_name.xcodeproj -scheme $npm_package_name -archivePath build/ios/$npm_package_name.xcarchive && rm -f build/ios/$npm_package_name.ipa && xcrun xcodebuild -exportArchive -archivePath build/ios/$npm_package_name.xcarchive -exportPath build/ios/ -exportOptionsPlist ios/$npm_package_name/Info.plist && rm -rf build/ios/$npm_package_name.xcarchive && mv build/ios/$npm_package_name.ipa build/ios/$npm_package_name-release-$npm_package_version.ipa",
     "web": "node scripts/start.js",
-    "web-build": "node scripts/build.js",
+    "web-build-release": "node scripts/build.js",
     "web-prod": "node scripts/server.js",
+    "build-release": "npm run android-build-release && npm run ios-build-release && npm run web-build-release && find ./build -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'",
     "test": "jest"
   },
   "jest": {

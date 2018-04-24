@@ -120,21 +120,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_8f9146fc0bd183e9d8f3e912fdb2990575f71186.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/piro/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
         <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_52ff2a1e20790033217c4ca4964b9a7b87f2368f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/piro/Documents/projects/native-web-boilerplate/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_8f9146fc0bd183e9d8f3e912fdb2990575f71186.jar" />
     </item>
     <item
         is-multidex="false"
