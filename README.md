@@ -28,6 +28,13 @@ or just
 yarn run build-release
 ```
 
+## Theme change
+
+Because NativeBase is used in project you can customise theme. More details are here
+https://docs.nativebase.io/Customize.html#Customize
+
+basically it's just changing `./native-base-theme` files
+
 ## Contributing
 
 The main purpose of this repository is to help evolve React web and native
